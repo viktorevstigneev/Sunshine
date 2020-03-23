@@ -1,0 +1,13 @@
+.background{
+  height: 500px;
+  background:url('../img/1.jpg') no-repeat;
+  background-size: 100%;
+}
+.text_cont_inner{
+  margin: 0; 
+  text-align: center;
+ color: rgb(228, 38, 111);
+  padding-top: 50px;
+
+  font-family: 'Caveat', cursive;
+}
