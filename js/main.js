@@ -1,5 +1,4 @@
 
-
  $(function(){
  var a = new String;
  a = $('.text_cont_inner').text();
