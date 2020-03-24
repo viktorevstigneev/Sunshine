@@ -38,7 +38,7 @@ btn2.addEventListener('click',()=>{
   }
   else{
      if(o.value==="солнышко" || o.value==="Солнышко"){
-       alert("молодец, солншыко ))");
+       alert("молодец, солнышко ))");
       block2.style.display="none";
       block3.style.display="block";}
       else{
