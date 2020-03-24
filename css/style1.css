@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Caveat'; /* Имя шрифта */
+  src: url(../fonts/caveat-v7-cyrillic_latin/caveat-v7-cyrillic_latin-regular.woff); /* Путь к файлу со шрифтом */
+ }
+#train {
+  position: relative;
+  width: 140px;
+  height: 80px;
+}
+.title,.articul{
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+input[type=text] {
+  font-family: 'Caveat', cursive;
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.date{
+  font-family: 'Caveat', cursive;
+  margin: 0 auto;
+  font-size: 28px;
+  transition: width 0.4s ease-in-out;
+}
+.btn1{
+  border-radius: 100px;
+  background: blueviolet;
+  color: antiquewhite;}
+.btn2,.btn3{
+  display: block;
+  border-radius: 100px;
+  background: blueviolet;
+  color: antiquewhite;
+  margin: 0 auto;
+}
+.o,.n{
+  font-family: 'Caveat', cursive;
+  font-size: 28px;
+color: rgb(226, 43, 180);
+}
+.block1{
+  display: block;
+  margin-bottom: 10px;
+}
+.block2,.block3,.block4{
+  display: none;
+  margin-bottom: 10px;
+}
+.letter{
+  font-family: 'Caveat', cursive;
+  font-size: 28px;
+}
+.message{
+  display:block;
+  margin: 0 auto;
+}
+.let{
+  display: none;
+  text-align: center;
+  color: rgb(43, 153, 226);
+  font-family: 'Caveat', cursive;
+  font-size: 28px;
+}

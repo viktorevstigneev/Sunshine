@@ -1,13 +1,38 @@
+@font-face {
+  font-family: 'Caveat'; /* Имя шрифта */
+  src: url(../fonts/caveat-v7-cyrillic_latin/caveat-v7-cyrillic_latin-regular.woff); /* Путь к файлу со шрифтом */
+ }
 .background{
-  height: 500px;
+  height: 200px;
   background:url('../img/1.jpg') no-repeat;
   background-size: 100%;
 }
+
 .text_cont_inner{
   margin: 0; 
   text-align: center;
- color: rgb(228, 38, 111);
+  color: rgb(228, 38, 111);
   padding-top: 50px;
-
+  font-size: 40px;
   font-family: 'Caveat', cursive;
+}
+.heart__image{
+  display: block;
+width: 250px;
+height: 250px;
+}
+.wrapper{
+  width: 250px;
+height: 250px;
+  margin: 0 auto;
+}
+.caption{
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-family: 'Caveat', cursive;
+  color: #fff;
+  font-size: 30px;
+  border: 1px solid rgb(22, 201, 141);
+  background: rgb(226, 11, 136);
 }
