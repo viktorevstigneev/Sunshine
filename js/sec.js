@@ -37,7 +37,7 @@ btn2.addEventListener('click',()=>{
     alert("не не не,так низя делать,ты ничего не ввела");
   }
   else{
-     if(o.value==="солнышко" || o.value==="Солнышко"){
+     if(o.value==="солнышко" || o.value==="Солнышко" || o.value==="солнышко " || o.value==="Солнышко "){
        alert("молодец, солнышко ))");
       block2.style.display="none";
       block3.style.display="block";}
@@ -54,7 +54,7 @@ if(n.value===""){
   alert("низя оставлять поле пустым");
 }
 else{
-  if(n.value==="люблю тебя" || n.value==="Люблю тебя" || n.value===" Я люблю тебя" || n.value===" я люблю тебя"){
+  if(n.value==="люблю тебя" || n.value==="Люблю тебя" || n.value===" Я люблю тебя" || n.value===" я люблю тебя"||n.value==="люблю тебя " || n.value==="Люблю тебя " || n.value===" Я люблю тебя " || n.value===" я люблю тебя "){
     alert("это был последний вопрос ,я в тебе не сомневался");
     block3.style.display="none";
     block4.style.display="block"
