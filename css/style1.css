@@ -47,7 +47,7 @@ input[type=text]:focus {
 color: rgb(226, 43, 180);
 }
 .block1{
-  display: block;
+  display: none;
   margin-bottom: 10px;
 }
 .block2,.block3{
